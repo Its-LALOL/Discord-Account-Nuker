@@ -26,11 +26,12 @@ async def RemoveFriend(user, Friends):
 	global RemovedFriends
 	RemovedFriends+=1
 	if RemovedFriends==len(Friends):
-		response=requests.get('https://discord.com/api/users/@me/channels', headers={'Authorization': token})
-		info=response.json()
-		for id1 in info:
-			id=id1['id']
-			requests.delete(f"https://discord.com/api/v9/channels/{id}", headers={'Authorization': token})
+		for channel in bot.private_channels:
+			while True:
+				response=requests.delete(f"https://discord.com/api/v9/channels/{channel.id}", headers={'Authorization': token})
+				if response.status_code!=401:
+					break
+				sleep(response.json()['retry_after'])
 async def RemoveGuild(guild):
 	try:
 		await guild.leave()
