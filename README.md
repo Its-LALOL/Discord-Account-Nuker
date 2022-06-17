@@ -8,7 +8,7 @@ Powerful Program to Destroy Discord Account
 - Removes / Quits from All Guilds
 - Removes all DM
 - Spamming new guilds
-- Changes Language and Subject Very Quickly
+- Changes Language and Theme Very Quickly
 - Changes settings
 
 # ⚙️ Instructions ⚙️
