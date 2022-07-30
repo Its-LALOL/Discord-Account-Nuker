@@ -5,14 +5,14 @@ Powerful Program to Destroy Discord Account
 - Very fast
 - Sends a Message to All Friends
 - Removes all Friends
-- Removes / Quits from All Guilds
+- Removes / Quits from All Servers
 - Removes all DM
-- Spamming new guilds
+- Spamming new Servers
 - Changes Language and Theme Very Quickly
 - Changes settings
 
 # ⚙️ Instructions ⚙️
-1) Downoload This
+1) Downoload ZIP
 2) Write Token to config.json File
 3) Open main.py File with cmd
 
