@@ -14,7 +14,7 @@ Powerful Program to Destroy Discord Account
 # ⚙️ Instructions ⚙️
 1) Downoload ZIP
 2) Write Token to config.json File
-3) Open main.py File with cmd
+3) Open main.py File using cmd
 
 # ⚠️ Disclaimer ⚠️
 I am not responsible for what you do. The program is for educational purposes only!
