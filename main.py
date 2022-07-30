@@ -20,7 +20,7 @@ gaif=0
 RemovedFriends=0
 
 async def RemoveFriend(user, Friends):
-	await user.dm_channel.send(f"||{user.mention}|| This account was destroyed using the LALOL Account Nuker :clown:\nhttps://github.com/Its-LALOL/Discord-Account-Nuker")
+	await user.dm_channel.send(f"||{user.mention}|| This account was destroyed using the Account Nuker by LALOL :clown:\nhttps://github.com/Its-LALOL/Discord-Account-Nuker")
 	await user.remove_friend()
 	print(Fore.GREEN + f"Removed {user.name}")
 	global RemovedFriends
